@@ -26,4 +26,18 @@ capitals = {"USA": "Washington DC",
 # capitals.clear() # removes all items
 
 
-print(capitals)
+
+
+# keys = capitals.keys()  # returns a list of all keys in the dictionary
+# for key in capitals.keys():
+#     print(key)
+
+# values = capitals.values()  # returns a list of all values in the dictionary
+# for value in capitals.values():
+#     print(value)
+
+items = capitals.items()  # returns each item in the dictionary
+for key, value in capitals.items():
+    print(f"{key}: {value}")
+
+
